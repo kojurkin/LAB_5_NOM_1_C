@@ -24,7 +24,7 @@ int main()
     {
         int j = i + 1;
         randomres = random(lower_range_limit, upper_range_limit);
-        printf("%dnum = %lf\n", j, randomres);
+        //printf("%dnum = %lf\n", j, randomres);//
         fprintf(out_file, "%lf\n ", randomres);
     }
     fclose(out_file);
